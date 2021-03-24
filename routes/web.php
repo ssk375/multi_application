@@ -11,6 +11,9 @@
 |
 */
 
+// トップページ
+Route::get('/', 'TopPageController@show');
+
 // ユーザー
 Route::namespace('User')->prefix('user')->name('user.')->group(function () {
 
